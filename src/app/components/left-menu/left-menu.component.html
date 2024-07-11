@@ -1,5 +1,5 @@
-<div class="w-full h-auto flex flex-col max-h-[70vh] bg-white rounded-2xl py-[2.5rem] mt-5 ">
-<div class="flex flex-col gap-10">
+<div class="w-full h-auto flex flex-col min-h-[70vh] bg-white rounded-2xl py-[2.5rem] mt-5">
+  <div class="flex flex-col gap-5">
     <div class="px-16 active  flex items-center gap-4">
         <svg id="home" xmlns="http://www.w3.org/2000/svg" width="16" height="16.892" viewBox="0 0 16 16.892">
             <path id="Path_27" data-name="Path 27" d="M6.852,16.465H3.392a2.046,2.046,0,0,1-2.038-2.031V7.553a1.271,1.271,0,0,1,.459-.97l.609-.451A.677.677,0,0,0,1.64,5.055h0l-.624.466A2.617,2.617,0,0,0,0,7.553v6.889a3.4,3.4,0,0,0,3.392,3.392h3.46a.677.677,0,1,0,0-1.354Z" transform="translate(0 -0.941)" fill="#200e32"/>
@@ -64,15 +64,13 @@
         <h2 class="text-md text-gray-500 ">Settings</h2>
     </div>
 </div>
-<div class="text-green-500 px-16 mt-32 items-center flex gap-4">
+  <div class="text-green-500 px-16 mt-10 items-center flex gap-4" (click)="logout()">
     <svg xmlns="http://www.w3.org/2000/svg" width="18.894" height="14.5" viewBox="0 0 18.894 14.5">
-        <g id="logout" transform="translate(-1.25 -3.75)">
-          <path id="Path_30" data-name="Path 30" d="M13.114,11.909a.659.659,0,0,0-.659-.659H1.909a.659.659,0,1,0,0,1.318H12.455A.659.659,0,0,0,13.114,11.909Z" transform="translate(0 -0.909)" fill="#88c2bb" fill-rule="evenodd"/>
-          <path id="Path_31" data-name="Path 31" d="M5.451,7.458a.659.659,0,0,0-.932,0L1.443,10.534a.659.659,0,0,0,0,.932l3.076,3.076a.659.659,0,0,0,.932-.932L2.841,11l2.61-2.61A.659.659,0,0,0,5.451,7.458Zm7.527-2.39A5.839,5.839,0,0,0,7.77,8.3.659.659,0,0,1,6.594,7.7,7.153,7.153,0,0,1,20.144,11a7.335,7.335,0,0,1-.257,1.931.659.659,0,1,1-1.272-.347A6.02,6.02,0,0,0,18.826,11,5.89,5.89,0,0,0,12.978,5.068ZM6.885,13.411a.659.659,0,0,1,.886.291,5.839,5.839,0,0,0,5.208,3.23,5.765,5.765,0,0,0,3.475-1.16.659.659,0,1,1,.791,1.054,7.083,7.083,0,0,1-4.266,1.424A7.157,7.157,0,0,1,6.594,14.3.659.659,0,0,1,6.885,13.411Z" transform="translate(0)" fill="#88c2bb" fill-rule="evenodd"/>
-        </g>
-      </svg>
-      
-    <h2 class="text-xl ">Log Out</h2>
-</div>
-
+      <g id="logout" transform="translate(-1.25 -3.75)">
+        <path id="Path_30" data-name="Path 30" d="M13.114,11.909a.659.659,0,0,0-.659-.659H1.909a.659.659,0,1,0,0,1.318H12.455A.659.659,0,0,0,13.114,11.909Z" transform="translate(0 -0.909)" fill="#88c2bb" fill-rule="evenodd"/>
+        <path id="Path_31" data-name="Path 31" d="M5.451,7.458a.659.659,0,0,0-.932,0L1.443,10.534a.659.659,0,0,0,0,.932l3.076,3.076a.659.659,0,0,0,.932-.932L2.841,11l2.61-2.61A.659.659,0,0,0,5.451,7.458Zm7.527-2.39A5.839,5.839,0,0,0,7.77,8.3.659.659,0,0,1,6.594,7.7,7.153,7.153,0,0,1,20.144,11a7.335,7.335,0,0,1-.257,1.931.659.659,0,1,1-1.272-.347A6.02,6.02,0,0,0,18.826,11,5.89,5.89,0,0,0,12.978,5.068ZM6.885,13.411a.659.659,0,0,1,.886.291,5.839,5.839,0,0,0,5.208,3.23,5.765,5.765,0,0,0,3.475-1.16.659.659,0,1,1,.791,1.054,7.083,7.083,0,0,1-4.266,1.424A7.157,7.157,0,0,1,6.594,14.3.659.659,0,0,1,6.885,13.411Z" transform="translate(0)" fill="#88c2bb" fill-rule="evenodd"/>
+      </g>
+    </svg>
+    <h2 class="text-xl">Log Out</h2>
+  </div>
 </div>
